@@ -1,0 +1,392 @@
+body {
+    background-color: #334E75;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #283d5a;
+    position: sticky; 
+    top: 0;
+}
+
+.logo img {
+    width: 13em;
+    height: 55px;
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 25px;
+}
+
+ul {
+    display: flex;
+
+    padding: 0;
+    list-style: none;
+    gap: 35px;
+}
+
+ul a {
+    text-decoration: none;
+    font-family: "Goldman", sans-serif;
+    color: black;
+    font-weight: 900;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+
+.boton button {
+    width: 18em;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*-------------------------------------------------------*/
+
+/*MAIN*/
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fondo {
+    background-color: beige;
+}
+
+.conMovimiento {
+    background-color: #344c72;
+    background-image: url(./access_de_Proyec/eh.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: antiquewhite;
+   
+    
+}
+
+.primer-section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 30em;
+   
+}
+
+.desarrollo {
+    padding: 20px;
+    margin: 25px;
+}
+
+.desarrollo h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: "Rubik Mono One", monospace;
+}
+
+.desarrollo p {
+    font-size: 25px;
+    width: 800px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+}
+
+.espacios {
+    margin: 35px;
+    padding: 30px;
+    
+
+
+}
+
+.espacios-btn {
+    display: flex;
+    width: 150px;
+    background: #BCCCE3;
+    padding: 11px;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Goldman", sans-serif;
+    box-shadow: 8px 10px 14px -5px rgba(0,0,0,0.75);
+
+}
+
+.cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./access_de_Proyec/verdadero-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #344c72;
+}
+
+.clase {
+    margin: 25px;
+    padding: 25px;
+    width: 550px;
+   
+
+}
+
+.clase-titulo {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.clase-titulo h2 {
+    font-family: "Goldman", sans-serif;
+}
+
+.clase-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.clase-img img {
+    font-family: "Goldman", sans-serif;
+    border-radius: 25px;
+    width: 532px;
+    box-shadow: -16px -22px 26px -5px rgba(0,0,0,0.75);
+    border: 1px solid #BCCCE3;
+}
+
+.muestra {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.muestra button {
+    margin: 15px;
+ box-shadow: 8px 10px 14px -5px rgba(0,0,0,0.75);
+ background-color: #BCCCE3;
+}
+
+.muestra button,
+.A {
+    font-family: "Goldman", sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 90px;
+    
+}
+
+.contedor {
+    margin: 45px;
+    width: 800px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2 {
+    font-family: "Goldman", sans-serif;
+}
+
+.deMas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.card {
+   border-radius: 5px;
+    width: 280px;
+   box-shadow: 8px 10px 14px -5px rgba(0,0,0,0.75);
+    border: 1px solid #BCCCE3;
+}
+
+.descuento {
+    display: flex;
+    justify-content: end;
+}
+
+.Imar {
+    width: 100%;
+}
+.Imar3{
+    width: 100%;
+    height: 160px;
+}
+.talles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 17px;
+    background-color:#BCCCE3;
+  
+
+}
+
+.talles a {
+    text-decoration: none;
+    font-family: "Goldman", sans-serif;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.tipo {
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+
+
+
+.ant-valor {
+    color: rgba(69, 68, 68, 0.438);
+    font-weight: 500;
+    text-decoration: line-through;
+    font-family: "Rubik", sans-serif;
+}
+
+.oferta {
+    color: rgba(56, 55, 55, 0.651);
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Rubik", sans-serif;
+}
+
+.confi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.boton1 {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    color: azure;
+    background-color:#344c72;
+    
+}
+
+.bolso {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+
+/*FOOTER*/
+footer {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #283d5a;
+}
+
+footer p {
+    font-family: "Goldman", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.red {
+    display: flex;
+    gap: 6px;
+}
+
+.red img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.red-ubi,
+.ima {
+    width: 40px;
+    height: 40px;
+}
+
+
+.frase {
+    font-family: "Rubik Mono One", monospace;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.propuestas {
+    font-family: "Goldman", sans-serif;
+}
+
+.propuestas h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+
+.botones button {
+
+    border-radius: 10px;
+    background-color: #BCCCE3;
+    width: 100px;
+
+}
+
+.botones a {
+    text-decoration: none;
+    font-family: "Caveat Brush", cursive;
+     box-shadow: 8px 10px 14px -5px rgba(0,0,0,0.75);
+}
