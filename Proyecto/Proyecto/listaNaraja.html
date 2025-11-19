@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Goldman:wght@400;700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Stick+No+Bills:wght@200..800&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgba(247, 75, 13, 0.918);
+        }
+        main {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+
+        .video {
+            width: 50%;
+            border: 1px solid rgba(247, 75, 13, 0.918) ;
+            margin-top: 7px;
+            padding: 20px;
+            
+        }
+        .video iframe{
+             box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+             border-radius: 5px;
+             width: 53em;
+             height: 29em;
+        }
+        .video p{
+          font-family: "Goldman", sans-serif;
+          font-size: 20px;  
+        }
+
+        .imagen {
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 7px;
+            padding: 20px;
+
+        }
+
+        .imagen img {
+            width: 325px;
+            height: 260px;
+             border: 1px solid rgba(247, 75, 13, 0.918) ;
+               box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+               border-radius: 5px;
+               object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/imlqiuFL2yA" allowfullscreen>
+            </iframe>
+
+            <p>Mejoremos nuestra institucion</p>
+        </div>
+        <div class="imagen">
+            <div><img src="./accessListas/naranja1.PNG" alt="naranja1"></div>
+            <div><img src="./accessListas/naranja2.PNG" alt="naranja2"></div>
+            <div><img src="./accessListas/naranja3.PNG" alt="naranja3"></div>
+            <div><img src="./accessListas/naranja4.PNG" alt="naranja4"></div>
+        </div>
+    </main>
+</body>
+
+</html>

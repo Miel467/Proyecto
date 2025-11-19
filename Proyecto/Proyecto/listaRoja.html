@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Goldman:wght@400;700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Stick+No+Bills:wght@200..800&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(128, 5, 5);
+        }
+
+        main {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .primeras {
+            display: flex;
+            gap: 10px;
+        }
+
+        .primeras img {
+            object-fit:cover;
+            width:462px;
+            height: 35em;
+            border: 1px solid rgb(128, 5, 5) ;
+               box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+        }
+
+        .conteiner {
+            display: flex;
+            justify-content: space-between;
+            gap: 35px;
+        }
+
+        .left {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 29%;
+        }
+
+        .left img {
+            width: 563px;
+            height: 438px;
+            border: 1px solid rgb(128, 5, 5);
+               box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+        object-fit: cover;
+        }
+
+        .pdf {
+            width: 40%;
+            height: 46em;
+        }
+
+        .pdf iframe {
+            width: 100%;
+            height: 60%;
+            border: 1px solid rgb(128, 5, 5);
+               box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+        }
+
+        .pdf p {
+            display: flex;
+            justify-content: center;
+            font-size: 21px;
+            font-family: "Goldman", sans-serif;
+        }
+
+        .right {
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: end;
+        }
+
+        .right img {
+            width: 580px;
+            height: 438px;
+            border: 1px solid rgb(128, 5, 5);
+               box-shadow: 17px 20px 12px -8px rgba(0,0,0,0.75);
+               object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="primeras">
+            <div><img src="./accessListas/roja2.PNG" alt="roja2"></div>
+            <div><img src="./accessListas/roja3.PNG" alt="roja3"></div>
+            <div><img src="./accessListas/roja5.PNG" alt="roja5"></div>
+            <div><img src="./accessListas/roja7.PNG" alt="roja7"></div>
+        </div>
+        <div class="conteiner">
+            <div class="left">
+                <div><img src="./accessListas/roja6.PNG" alt="roja6"></div>
+                <div><img src="./accessListas/roja9.PNG" alt="roja9"></div>
+            </div>
+            <div class="pdf">
+                <iframe src="./accessListas/propuestas_lista_roja.pdf"></iframe>
+                <p>Un colegio donde todos importamos y juntos hacemos el cambio.</p>
+            </div>
+            <div class="right">
+                <div><img src="./accessListas/roja10.PNG" alt="roja1"></div>
+                <div><img src="./accessListas/roja4.PNG" alt="roja4"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
